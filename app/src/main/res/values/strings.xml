@@ -1,0 +1,10 @@
+<resources>
+    <string name="login">Shop2T</string>
+    <string name="tk">Tài khoản</string>
+    <string name="dk">Đăng ký</string>
+    <string name="mk">Mật khẩu</string>
+    <string name="hoten">Họ và tên</string>
+    <string name="email">Email</string>
+    <string name="bdn">"Quay lại đăng nhập</string>
+    <string name="dn">Đăng nhập</string>
+</resources>

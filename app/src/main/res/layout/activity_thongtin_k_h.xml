@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="80dp"
+       android:layout_marginBottom="80dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="30sp"
+           android:text="Thong tin khách hàng"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="30dp"
+           android:textStyle="bold"
+           android:textColor="#0D0E0B"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="Nhập tên khách hàng"
+                android:inputType="text"
+                android:id="@+id/edtenkh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <EditText
+               android:hint="Nhập số điện thoại"
+               android:inputType="phone"
+               android:id="@+id/edsdtkh"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+       </com.google.android.material.textfield.TextInputLayout>
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <EditText
+               android:hint="Nhập địa chỉ nhà"
+               android:id="@+id/eddiachi"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+       </com.google.android.material.textfield.TextInputLayout>
+       <LinearLayout
+           android:gravity="center"
+           android:layout_marginBottom="10dp"
+           android:layout_marginTop="30dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <Button
+               android:layout_marginRight="70dp"
+               android:background="#C5233C"
+               android:text="Xác nhận"
+               android:padding="10dp"
+               android:textSize="15dp"
+               android:id="@+id/btnxacnhan"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <Button
+               android:background="#C5233C"
+               android:text="Trở về"
+               android:padding="10dp"
+               android:textSize="15dp"
+               android:id="@+id/btntrove"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
